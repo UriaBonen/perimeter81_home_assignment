@@ -1,0 +1,9 @@
+At my last company, Deep Instinct, I was part of a team tasked with building automation infrastructure for a new product.
+The challenge was that the existing automation framework already served several products, and integrating the new one without breaking anything was complex.
+We debated whether to invest the effort to extend the existing framework or build a new one from scratch.
+I believed it was worth trying to reuse the current infrastructure, but I wasn't sure how much time and work it would require—or what hidden issues might arise later.
+
+After a few discussions, I proposed we start writing basic test cases as if the infrastructure already supported the new product. This allowed us to identify the gaps and assess the effort involved.
+After about a month of work by a three-person team, we successfully added support for the new product within the existing framework.
+I believe this is a solid approach, especially when facing uncertainty—it helps drive decisions through experimentation and concrete results.
+
