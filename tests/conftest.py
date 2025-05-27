@@ -1,8 +1,7 @@
+from pages.page_objects import PageObjects
 import pytest
 from playwright.sync_api import sync_playwright
 
-import pytest
-from playwright.sync_api import sync_playwright
 
 @pytest.fixture(scope="class")
 def browser(request):
@@ -19,3 +18,10 @@ def browser(request):
         request.cls.page = page
         yield page
         browser.close()
+
+import pytest
+
+@pytest.fixture
+def pages(browser):
+    browser.goto("https://accounts.google.com/")
+    return PageObjects(browser)

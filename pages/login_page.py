@@ -6,7 +6,6 @@ class LoginPage(BasePage):
     def __init__(self, page):
         super().__init__(page)
         self.username_input = "#identifierId"
-        self.login_button = ".VfPpkd-Jh9lGc"
 
 
     def fill_username(self, username):
